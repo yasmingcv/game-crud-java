@@ -26,7 +26,7 @@ public class MainView extends JFrame {
 
         // Menu
         JMenuBar menuBar = new JMenuBar();
-        JMenu fileMenu = new JMenu("Arquivo");
+        JMenu fileMenu = new JMenu("Menu");
         JMenuItem addItem = new JMenuItem("Cadastrar Novo Jogo");
         addItem.addActionListener(e -> showAddGameDialog());
         JMenuItem listItem = new JMenuItem("Listar Jogos");
